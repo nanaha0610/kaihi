@@ -102,7 +102,7 @@ const fourthYearTotal = fourthYearMembers.reduce(
   
   return (
     <div className="app">
-      <h1 className="title">割り勘アプリ</h1>
+      <h1 className="title">会費集計</h1>
       <div className="event-name-box">
         <input
           className="input"
