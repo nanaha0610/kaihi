@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  background-color: #f5f5f5;
+  font-family: sans-serif;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.input,
+.select {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.add-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.grade-box,
+.total-box {
+  background-color: white;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
+
+.grade-box ul,
+.total-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.member-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.member-item button {
+  margin-left: 8px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+
+.clear-button {
+  padding: 8px 16px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #f8d7da;
+  border: 1px solid #f1aeb5;
+  border-radius: 4px;
+}
